@@ -13,8 +13,8 @@ _paq.push(['enableLinkTracking']);
 
 // Live2d
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://github.com/lmtlove/live2.git/";
-
+// const live2d_path = "https://github.com/lmtlove/live2.git/";
+const live2d_path = "/lib/waifu/";
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
