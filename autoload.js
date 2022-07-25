@@ -13,7 +13,7 @@ _paq.push(['enableLinkTracking']);
 
 // Live2d
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://github.com/lmtlove/live2.git";
+const live2d_path = "https://github.com/lmtlove/live2.git/";
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
@@ -75,10 +75,3 @@ console.log(`
                   'ｰ'    !_,.:
 `);
 // End Live2d Code
-
-window.addEventListener('load', () => {
-	console.log('%c米米的博客', 'text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);\
-font-size: 5em;');
-	console.log(`\n%cMimi's Blog%cv${CONFIG.version}%c\n`, "padding: 8px; background: #cd3e45; font-weight: bold; font-size: large; color: white;", "padding: 8px; background: #ff5450; font-size: large; color: #eee;", '');
-	console.log(`页面加载完毕消耗了${Math.round(performance.now() * 100) / 100}ms`);
-});
